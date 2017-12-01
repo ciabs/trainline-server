@@ -1,0 +1,21 @@
+{
+  "name": "trainline-server",
+  "version": "1.0.0",
+  "description": "A simple two page web application that displays train services departing from London Waterloo station",
+  "private": true,
+  "main": "src/index.js",
+  "author": "Francesco Fiori <francesco.fiori@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node src/index.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^3.19.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "express": "^4.15.2",
+    "socket.io": "^2.0.4"
+  }
+}
