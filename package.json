@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "A simple two page web application that displays train services departing from London Waterloo station",
   "private": true,
+  "engines": {
+    "node": "8.9.1"
+  },
   "main": "src/index.js",
   "author": "Francesco Fiori <francesco.fiori@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "serve": "node src/index.js"
+    "serve": "node index.js",
+    "start": "npm run serve"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.2",
