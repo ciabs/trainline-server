@@ -2,7 +2,7 @@
   "name": "trainline-server",
   "description": "A simple two page web application that displays train services departing from London Waterloo station",
   "repository": "https://github.com/francescofiori/trainline-server",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "logo": "https://cdn.jsdelivr.net/gh/heroku/node-js-getting-started@master/public/node.svg",
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs"
 }
